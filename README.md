@@ -101,10 +101,10 @@ cloud-benchmarking-k8s/
 ### 🔹 Observability Dashboard (Task 4)
 
 - 📊 CPU Usage of Java App  
-  ![CPU Usage](docs/grafana-cpu-usage.png)
+  ![CPU Usage](docs/grafana-cpu-usage.jpeg)
 
 - 📈 Memory Usage over time  
-  ![Memory Usage](docs/grafana-memory-usage.png)
+  ![Memory Usage](docs/grafana-memory-usage.jpeg)
 
 - 📉 Cluster-wide Pod CPU Limits  
   ![Pod CPU Chart](docs/cluster-pod-cpu.png)
