@@ -1,7 +1,7 @@
 apiVersion: v1
 kind: Service
 metadata:
-  name: javabenchmarkapp-service
+  name: javabenchmarkapp
 spec:
   type: NodePort
   selector:

@@ -8,7 +8,7 @@ WORKDIR /app
 COPY load_generator.py /app/
 
 # Install required Python dependencies
-RUN pip install requests
+RUN pip install --no-cache-dir requests
 
 # Expose a port
 EXPOSE 30000
