@@ -107,7 +107,7 @@ cloud-benchmarking-k8s/
   ![Memory Usage](docs/grafana-memory-usage.jpeg)
 
 - 📉 Cluster-wide Pod CPU Limits  
-  ![Pod CPU Chart](docs/cluster-pod-cpu.png)
+  ![Pod CPU Chart](docs/cluster-pod-cpu1.png)
 
 - 📊 Cluster Node Memory Available  
   ![Node Memory Chart](docs/cluster-node-memory.png)
