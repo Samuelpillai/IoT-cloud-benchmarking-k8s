@@ -1,21 +1,21 @@
-# 📊 Cloud Benchmarking with Kubernetes
+# Cloud Benchmarking with Kubernetes
 
 This project showcases a Kubernetes-based cloud benchmarking and observability pipeline designed as part of the **CSC8110: Cloud Computing** module at Newcastle University. The goal is to deploy a sample Java benchmarking application, simulate load using a custom Docker-based load generator, and monitor real-time resource usage (CPU, memory) using **Grafana + Prometheus**.
 
 ---
 
-## 📌 Features
+## Features
 
-- ✅ Kubernetes Dashboard access with role-based access setup
-- ✅ Java benchmarking app deployed via `Deployment` and `Service`
-- ✅ Docker-based Load Generator written in Python
-- ✅ MicroK8s Observability Add-on (Grafana + Prometheus)
-- ✅ Real-time monitoring of container CPU & memory metrics
-- ✅ End-to-end visibility from app to system resources
+-  Kubernetes Dashboard access with role-based access setup
+-  Java benchmarking app deployed via `Deployment` and `Service`
+-  Docker-based Load Generator written in Python
+-  MicroK8s Observability Add-on (Grafana + Prometheus)
+-  Real-time monitoring of container CPU & memory metrics
+-  End-to-end visibility from app to system resources
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component             | Tool / Technology                        |
 |----------------------|-------------------------------------------|
@@ -28,7 +28,7 @@ This project showcases a Kubernetes-based cloud benchmarking and observability p
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 cloud-benchmarking-k8s/
 ├── README.md
 ├── CSC8110-Samuel-Pillai-Sathiyamoorthy.pdf
@@ -57,7 +57,7 @@ cloud-benchmarking-k8s/
 
 ---
 
-## 📸 Screenshots
+## Screenshots
 
 ### 🔹 Kubernetes Dashboard Access
 
@@ -100,21 +100,21 @@ cloud-benchmarking-k8s/
 
 ### 🔹 Observability Dashboard (Task 4)
 
-- 📊 CPU Usage of Java App  
+-  CPU Usage of Java App  
   ![CPU Usage](docs/grafana-cpu-usage.jpeg)
 
-- 📈 Memory Usage over time  
+-  Memory Usage over time  
   ![Memory Usage](docs/grafana-memory-usage.jpeg)
 
-- 📉 Cluster-wide Pod CPU Limits  
+-  Cluster-wide Pod CPU Limits  
   ![Pod CPU Chart](docs/cluster-pod-cpu1.png)
 
-- 📊 Cluster Node Memory Available  
+-  Cluster Node Memory Available  
   ![Node Memory Chart](docs/cluster-node-memory.png)
 
 ---
 
-## 🚀 Setup Steps (Summary)
+## Setup Steps (Summary)
 
 bash
 # Apply Kubernetes Dashboard access
@@ -136,14 +136,14 @@ docker push localhost:32000/load-generator
 # Deploy Load Generator
 kubectl apply -f load-generator-deployment.yaml
 
-## 📄 License
+## License
 
 This project is released under the MIT License.
 
 ⸻
 
-## 👨‍💻 Author
+## Author
 
 Samuel Sathiyamoorthy
-📘 MSc Cloud Computing – Newcastle University
-📧 ssamuelpillai@gmail.com
+MSc Cloud Computing – Newcastle University
+ssamuelpillai@gmail.com
